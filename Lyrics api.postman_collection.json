@@ -12,13 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://test-beta-seven-33.vercel.app/api/genius/lyrics",
-					"protocol": "https",
+					"raw": "http://localhost:3000/api/genius/lyrics",
+					"protocol": "http",
 					"host": [
-						"test-beta-seven-33",
-						"vercel",
-						"app"
+						"localhost"
 					],
+					"port": "3000",
 					"path": [
 						"api",
 						"genius",
