@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "44ee6273-2606-405c-a48b-ac3cef78403c",
+		"name": "Lyrics api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30665582"
+	},
+	"item": [
+		{
+			"name": "Get lyrics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test-beta-seven-33.vercel.app/api/genius/lyrics",
+					"protocol": "https",
+					"host": [
+						"test-beta-seven-33",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"genius",
+						"lyrics"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-beta-seven-33.vercel.app/api/genius/lyrics",
+							"protocol": "https",
+							"host": [
+								"test-beta-seven-33",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"api",
+								"genius",
+								"lyrics"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Age",
+							"value": "0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Oct 2024 23:27:40 GMT"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"5ec-LS0rwE6lmZLNFk+PlWtWE1G1ruM\""
+						},
+						{
+							"key": "Server",
+							"value": "Vercel"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains; preload"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Vercel-Cache",
+							"value": "MISS"
+						},
+						{
+							"key": "X-Vercel-Id",
+							"value": "iad1::iad1::f4wq4-1728343658491-f4026e492d15"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"title\": \"Whiplash\",\n    \"artist\": \"Metallica\",\n    \"lyrics\": \"[Verse 1]\\nLate at night, all systems go, you've come to see the show\\nWe do our best, you're the rest, you make it real, you know\\nThere's a feeling deep inside that drives you fuckin' mad\\nA feeling of a hammerhead, you need it, oh, so bad\\n\\n[Chorus]\\nAdrenaline starts to flow\\nYou're thrashing all around\\nActing like a maniac\\nWhiplash\\n\\n[Verse 2]\\nBang your head against the stage like you never did before\\nMake it ring, make it bleed, make it really sore\\nIn a frenzied madness with your leathers and your spikes\\nHeads are bobbing all around, it's hot as hell tonight\\n\\n[Chorus]\\nAdrenaline starts to flow\\nYou're thrashing all around\\nActing like a maniac\\nWhiplash\\n\\n[Verse 3]\\nHere on stage, the Marshall noise is piercing through your ears\\nIt kicks your ass, kicks your face, exploding feeling nears\\nNow's the time to let it rip, to let it fuckin' loose\\nWe're gathered here to maim and kill\\n'Cause this is what we choose\\n\\n[Chorus]\\nAdrenaline starts to flow\\nYou're thrashing all around\\nActing like a maniac\\n\\n[Instrumental Break]\\nHere we go\\n[Guitar Solo]\\nWhiplash\\n[Guitar Solo]\\n\\n[Verse 4]\\nThe show is through, the metal's gone, it's time to hit the road\\nAnother town, another gig, again, we will explode\\nHotel rooms and motorways, life out here is raw\\nBut we'll never stop, we'll never quit, 'cause we're Metallica\\n\\n[Chorus]\\nAdrenaline starts to flow\\nYou're thrashing all around\\nActing like a maniac\\n\\n[Outro]\\nWhoa, whoa\"\n}"
+				}
+			]
+		}
+	]
+}
